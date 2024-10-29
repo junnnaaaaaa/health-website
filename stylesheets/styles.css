@@ -7,8 +7,8 @@ body {
     background-color: #f0f0f0;
     font-family: 'Nunito', sans-serif;
     color: #333;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h1 {
@@ -35,7 +35,11 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
-
+img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
 button:hover {
     background-color: #45a049;
 }
@@ -63,4 +67,17 @@ nav {
 .nav-link.active {
     color: #333; /* Darker color for the active link */
     font-weight: bold; /* Optional: Make it bold for emphasis */
+}
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.article{
+    font-size: 18px;
+}
+.support-description{
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
 }
