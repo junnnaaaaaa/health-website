@@ -81,3 +81,11 @@ li{
     margin: 0;
     text-align: center;
 }
+.bottom-bar{
+    background-color: rgb(126, 167, 192);
+    margin-top: 50px;
+    padding: 100px;
+    text-align:center;
+    position:fixed;
+    color: red;
+}
