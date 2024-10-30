@@ -35,57 +35,71 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
-img{
+
+img {
     display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
+
 button:hover {
     background-color: #45a049;
 }
+
 nav {
     background-color: rgb(126, 167, 192);
-    left:0px;
-    right:0px;
+    left: 0px;
+    right: 0px;
     padding: 0px;
-    top:0px;
-    text-align:center;
-    position:fixed;
+    top: 0px;
+    text-align: center;
+    position: fixed;
 }
-  a{
+
+a {
     text-decoration: none;
     color: rgb(36, 60, 78);
-    padding-left:15px;
-    padding-right:15px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 16px;
-  }
-  .nav-link {
-    color: #000; /* Default color for links */
+}
+
+.nav-link {
+    color: #000;
+    /* Default color for links */
     text-decoration: none;
 }
 
 .nav-link.active {
-    color: #333; /* Darker color for the active link */
-    font-weight: bold; /* Optional: Make it bold for emphasis */
+    color: #333;
+    /* Darker color for the active link */
+    font-weight: bold;
+    /* Optional: Make it bold for emphasis */
 }
-li{
+
+li {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 18px;
 }
-.article{
+
+.article {
     font-size: 18px;
 }
-.support-description{
+
+.support-description {
     font-size: 18px;
     margin: 0;
     text-align: center;
 }
-.bottom-bar{
+
+.bottom-bar {
     background-color: rgb(126, 167, 192);
-    margin-top: 50px;
-    padding: 100px;
-    text-align:center;
-    position:fixed;
-    color: red;
+    margin-bottom: 0px;
+    margin-top: 250px;
+    padding: 250px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
 }
