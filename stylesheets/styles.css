@@ -42,8 +42,12 @@ img {
     margin-right: auto;
 }
 
-button:hover {
-    background-color: #45a049;
+.nav-link:hover {
+    background: rgba(76, 117, 142, 1);
+    font-size: 20px;
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 0 10px 10px;
+    font-weight: normal;
 }
 
 nav {
@@ -68,6 +72,8 @@ a {
     color: #000;
     /* Default color for links */
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .nav-link.active {
