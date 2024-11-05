@@ -111,7 +111,7 @@ li {
 }
 
 .bu_tips {
-    width: 50%;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -133,7 +133,7 @@ li {
 .hide {
     visibility: hidden;
     text-align: left;
-    height: 0;
+    max-height: 0;
     opacity: 0;
     overflow: hidden;
     transition: all 0.8s;
@@ -151,7 +151,7 @@ li {
     .hide {
         opacity: 1;
         visibility: visible;
-        height: 430px;
+        max-height: 350px;
     }
 
     .die {
