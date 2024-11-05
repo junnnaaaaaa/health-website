@@ -97,6 +97,21 @@ li {
     font-size: 18px;
     margin: 0;
     text-align: center;
+
+    h2 a {
+        font-size: inherit;
+        text-decoration: none;
+        color: #55A;
+    }
+    h3 a {
+        font-size: inherit;
+        text-decoration: none;
+        color: #55A;
+    }
+
+    p {
+        font-size: inherit;
+    }
 }
 
 .bottom-bar {
