@@ -97,21 +97,6 @@ li {
     font-size: 18px;
     margin: 0;
     text-align: center;
-
-    h2 a {
-        font-size: inherit;
-        text-decoration: none;
-        color: #55A;
-    }
-    h3 a {
-        font-size: inherit;
-        text-decoration: none;
-        color: #55A;
-    }
-
-    p {
-        font-size: inherit;
-    }
 }
 
 .bottom-bar {
@@ -132,20 +117,45 @@ li {
     margin-top: 100px;
     visibility: visible;
     display: block;
-    background-color: lightblue;
+    background: #FF6F61;
     height: auto;
     padding: 0 20px 20px 20px;
     border-radius: 15px;
     text-align: center;
+    transition: all 0.8s;
+
+    p,
+    h1 {
+        color: black;
+    }
 }
 
 .hide {
     visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
     text-align: left;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.8s;
 }
 
-.bu_tips:hover .hide {
-    opacity: 1;
+.die {
     visibility: visible;
+    opacity: 1;
+    transition: all 0.8s;
+    text-align: center;
+    font-size: 10px;
+}
+
+.bu_tips:hover {
+    .hide {
+        opacity: 1;
+        visibility: visible;
+        height: 430px;
+    }
+
+    .die {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
